@@ -1,0 +1,6 @@
+interface:
+  display_name: "Shopify 主题原生融合开发"
+  short_description: "复用目标主题架构与共享组件，构建可配置模块及复杂定制计价"
+  default_prompt: "请使用 $shopify-theme-native，按我的主题原生融合与复用方法完成当前 Shopify 开发需求。"
+policy:
+  allow_implicit_invocation: true
