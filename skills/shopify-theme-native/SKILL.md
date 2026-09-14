@@ -2,7 +2,7 @@
 name: shopify-theme-native
 description: 按用户的主题原生融合与复用方法开发 Shopify Liquid 主题、独立 section 和共享组件；处理复杂定制产品时按需采用公式计价与 YMQ 适配方法。适用于新站开发和现有主题修改，不用于一般店铺运营或无关应用开发。
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # Shopify 主题原生融合开发
@@ -20,6 +20,19 @@ metadata:
 新增或重构内容区域可按用户需求组织内容和模块顺序，但其字体、容器、网格、间距及响应式行为默认采用主题已有约定；没有适用的原生实现时，再补充最小必要的局部实现。不能通过另加一套局部字体或样式覆盖，绕开“默认跟随目标主题”的要求。
 
 实施前确认本次明确允许改变的内容，以及必须继承的主题基础。交付前检查实际 diff：公共 header/footer、section group、全站字体和布局配置如有变更，必须能对应到用户的明确要求；无法对应的变更先撤回，再继续交付。只读检查不受此限制。
+
+## Dawn 模块原生设置：实施与交付必查
+
+目标主题确认是 Dawn 或保留对应实现的衍生主题时，新增或重构的每个内容 section 必须接入以下原生约定；其他主题先读取其对应实现，不照搬 Dawn 类名。此项属于前述最高默认优先级，只有用户明确要求才在指定范围例外。
+
+- 每个 section 自己声明 `padding_top`、`padding_bottom` range 设置，并用 `{%- style -%}` 输出 `.section-{{ section.id }}-padding`：小于 750px 时各为设置值乘 `0.75` 后 `round: 0`，从 750px 起使用设置原值；上下独立，单位 px，默认 36，范围 0–100、步长 4。将此类实际挂到内容外层，禁止用额外写死的 section padding 叠加、覆盖或替代。
+- 外层接入 `color-{{ section.settings.color_scheme }}` 及主题适用的 `gradient`，schema 用 `color_scheme` 设置，默认 `scheme-1`；内部采用 `page-width`。只有已明确需要通栏的图片/轮播等模块保留其通栏配置，不给通栏媒体强行加内层留白。
+- 有文字标题的模块使用 `inline_richtext` 类型 `heading`、`heading_size` 设置（`h2/h1/h0/hxl/hxxl`，默认 `h1`），输出 `title inline-richtext {{ section.settings.heading_size }}`。标题为空时不输出空标题；标题容器采用 `title-wrapper title-wrapper--no-top-margin`，按 `settings.animations_reveal_on_scroll` 添加主题已有动画类。有描述需求时使用可编辑正文设置并沿用原生正文样式。
+- 字体、字号、字重、行高、配色和按钮使用主题原生类与设置，不再通过模块 CSS 写死另一套值。增加字段后必须清理会覆盖它们的 CSS；仅声明 schema、实际上不使用，视为未完成。
+- 纯图片模块也必须有配色和独立上下间距，但不为了套模板添加用户未要求的文字层。图片内文字无法受 CSS 或标题设置控制；制作图片时遵守用户指定的字体样式，后续修改需更新图片，不宣称会随主题设置变化。
+- 交付逐个核对本次所有 section：设置字段、style 输出、实际 wrapper、page-width、标题与动画接线、旧 CSS 冲突均检查。至少验证手机与桌面断点，并改变上下间距验证独立生效及移动端 0.75 比例；有标题的模块验证 heading_size 不被覆盖。公共 header/footer 不属于本次批量补齐范围。
+
+实现结构和 schema 示例见 [Dawn section 模板](references/dawn-section.md)，处理 Dawn section 时必须读取。
 
 ## 所有操作的工具选择原则
 
