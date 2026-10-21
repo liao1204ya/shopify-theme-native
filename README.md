@@ -2,7 +2,7 @@
 
 供 Codex 使用的个人开发方法 Skill：复用目标 Shopify 主题的架构、公共组件和视觉语言，开发后台可配置的独立模块。
 
-当前版本：**v1.5.0**。内置 Humanizer 3.1.0 完整规则与许可，网站文案默认自然化；保留主题原生架构与公共组件约定。
+当前版本：**v1.6.0**。内置 Humanizer 3.1.0 完整规则与许可，网站文案默认自然化；保留主题原生架构与公共组件约定。
 
 ## 安装
 
@@ -50,3 +50,12 @@ Humanizer 完整原文与 MIT 许可随 Skill 一起分发，位于 `references/
 来源与许可保存在 `skills/shopify-theme-native/vendor/` 和 `sources/extensions.json`。工具运行依赖不打包进仓库；新电脑复制 Skill 的 `assets/runtime/package.json` 和 `package-lock.json` 到 `~/.codex/tools/shopify-theme-native/` 后执行 `npm ci`。已有 Shopify CLI 优先复用，缺少时安装 `@shopify/cli`。Python 核心工具用 `python <skill>/scripts/audit-runner.py --setup` 安装独立环境。
 
 运行方法、职责划分与 Shopify 适配见 [扩展指南](skills/shopify-theme-native/references/extensions.md)。不需要同事安装 WordPress 知识库。尚未配置的 GSC/GA4、付费数据、可选报告依赖和实际站点验收不视为已经完成。未选择 Playwright、Theme Tools 独立集成或 Watermarks Remover 服务。
+## 每页无障碍与政策声明（1.6.0）
+
+每个交付页面默认纳入无障碍计划，以 WCAG 2.2 A/AA 为技术目标，重点覆盖视障用户的屏幕阅读器、键盘、焦点、对比度、缩放、图片说明和动态表单反馈，同时兼顾其他障碍用户。检查范围包括完整购物流程与第三方环节，并如实记录未验证项目。
+
+- [实施计划](skills/shopify-theme-native/references/accessibility.md)
+- [无障碍政策页模板](skills/shopify-theme-native/assets/accessibility-statement-template.md)
+- [逐页验收表](skills/shopify-theme-native/assets/accessibility-review-template.csv)
+
+新站默认提供可编辑的无障碍声明与公共页脚入口，使用自然、尊重的文案说明实际措施、已知限制和真实联系渠道。模板需按站点事实填写后发布；自动评分、Skill 安装或政策页创建均不等于站点已经通过无障碍合规评估。
