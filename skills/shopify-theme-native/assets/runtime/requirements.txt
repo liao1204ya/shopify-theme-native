@@ -1,0 +1,6 @@
+requests>=2.34.2,<3
+beautifulsoup4>=4.12,<5
+lxml>=6.1.1,<7
+dnspython>=2.8,<3
+validators>=0.22,<1
+rich>=13,<14

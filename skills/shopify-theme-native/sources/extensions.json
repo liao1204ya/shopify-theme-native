@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-21",
+  "projects": [
+    {
+      "license": "MIT",
+      "id": 1,
+      "repo": "AgriciDaniel/claude-seo",
+      "commit": "4b99de2f7de7e7d5247042e5fb5b4ea9368ef734",
+      "mode": "bundled knowledge and bounded Python tools"
+    },
+    {
+      "license": "MIT",
+      "id": 2,
+      "repo": "zubair-trabzada/geo-seo-claude",
+      "commit": "989cae01e8ebbc42a9ec798eb9e7cb423f5ec89c",
+      "mode": "bundled knowledge and bounded Python tools"
+    },
+    {
+      "license": "MIT",
+      "id": 3,
+      "repo": "coreyhaines31/marketingskills",
+      "commit": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+      "mode": "bundled knowledge"
+    },
+    {
+      "license": "Apache-2.0",
+      "id": 4,
+      "version": "13.5.0",
+      "repo": "GoogleChrome/lighthouse",
+      "mode": "npm dependency"
+    },
+    {
+      "license": "MIT",
+      "id": 6,
+      "version": "4.9.4",
+      "repo": "Shopify/cli",
+      "mode": "reuse existing PATH CLI"
+    },
+    {
+      "license": "MIT",
+      "commit": "dcf688f34f4d05cc1c33236d104b4624314748ed",
+      "runtime_version": "1.0.46",
+      "repo": "GargantuaX/gemini-watermark-remover",
+      "id": 9,
+      "mode": "bundled skill and npm runtime"
+    },
+    {
+      "wrapper": "exiftool-vendored@39.0.1",
+      "license": "See upstream ExifTool and wrapper licenses",
+      "mode": "external executable via npm distribution; no binary in skill repo",
+      "repo": "exiftool/exiftool",
+      "id": 10,
+      "version": "13.59"
+    }
+  ],
+  "excluded_numbers": [
+    5,
+    7,
+    8
+  ],
+  "skill_version": "1.5.0",
+  "selected_numbers": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    9,
+    10
+  ]
+}

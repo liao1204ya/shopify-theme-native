@@ -2,7 +2,7 @@
 name: shopify-theme-native
 description: 按用户的主题原生融合与复用方法开发 Shopify Liquid 主题、独立 section 和共享组件，并用内置 Humanizer 编写或优化自然的网站文案；复杂定制产品按需采用公式计价与 YMQ 适配方法。适用于新站开发、主题修改和相关文案工作，不用于一般店铺运营或无关应用开发。
 metadata:
-  version: "1.4.0"
+  version: "1.5.0"
 ---
 
 # Shopify 主题原生融合开发
@@ -124,6 +124,16 @@ metadata:
 网站开发按 Humanizer 的 embedded/file 模式交付：写入最终文案，简述修改；不把内部草稿和 AI 痕迹检查清单放到网页上。交付前核对事实、关键词、CTA、占位符和移动端文本显示；只有文案任务时不改字体、header/footer 或布局。用户要求逐字保留的文字不自动重写。本 Skill 的主题继承与任务范围约束继续有效。
 
 内置原文保持上游完整内容，许可见 [Humanizer MIT License](references/humanizer-LICENSE.txt)。原文中的一般写作建议按以上电商语境应用；仅为复用编辑方法，不保证通过任何 AI 检测。
+
+## 已选扩展：SEO、GEO、营销与工具
+
+用户于 2026-10-21 选择候选编号 1、2、3、4、6、9、10：Claude SEO、GEO SEO Claude、Marketing Skills、Lighthouse、Shopify CLI、Gemini Watermark Remover、ExifTool。它们已融合到本 Skill，相关 Shopify 工作自动采用适用部分，无需再次询问是否集成。先读 [扩展适配与运行说明](references/extensions.md)，按任务加载对应 vendor 文件，不一次加载整个知识库。
+
+新增/改版页面默认检查本次范围的 SEO 基础和内容可读性；需要 GEO 时进一步检查事实可引用性。局部改动不升级为全站审计。营销文案与内置 Humanizer 配合；SEO 与 GEO 共用主题和 App 的唯一元信息/Schema 输出负责方。保留原生主题、交易和配置规则，不能套用 WordPress 专属流程。
+
+图片处理仅在用户指定图片或明确要求处理标记时执行：Gemini 工具用于支持的可见标记，ExifTool 用于元数据检查及明确指定字段处理。不自动处理全站媒体，不把元数据清理当作隐藏水印已移除。工具通过本地 CLI 运行，原图保留，输出新文件后再按已有 Files/image_picker 规则接入。
+
+未选择 5（Playwright 项目集成）、7（Theme Tools 独立集成）、8（Watermarks Remover 服务）。上游间接依赖不等于用户选择了这些项目；不因此安装浏览器自动化套件或启动标记清理服务。
 
 ## 按任务读取
 

@@ -1,0 +1,1309 @@
+{
+  "repo": "AgriciDaniel/claude-seo",
+  "commit": "4b99de2f7de7e7d5247042e5fb5b4ea9368ef734",
+  "url": "https://github.com/AgriciDaniel/claude-seo/tree/4b99de2f7de7e7d5247042e5fb5b4ea9368ef734",
+  "retrieved_on": "2026-10-10",
+  "mode": "knowledge-snapshot",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b",
+      "bytes": 1069
+    },
+    {
+      "path": "README.md",
+      "sha256": "22cf78012fa911b9d879cd75a57ceb3c92b3e16a02f8a367b05b4536cdce6fb5",
+      "bytes": 39568
+    },
+    {
+      "path": "agents/seo-agentic.md",
+      "sha256": "9cb0ae5efe6560789a6c4e4e5518acf76c357d25539461611abe5cf558a143ff",
+      "bytes": 3433
+    },
+    {
+      "path": "agents/seo-backlinks.md",
+      "sha256": "6ee8e95783c76d812af7add59b972889b171a927d242da2ea9e44f4fe1bdc190",
+      "bytes": 7711
+    },
+    {
+      "path": "agents/seo-cluster.md",
+      "sha256": "db1eb760f792d80701788a632d1a17bae53dcac92074500a671cb99fccab7ddf",
+      "bytes": 4133
+    },
+    {
+      "path": "agents/seo-content.md",
+      "sha256": "4894353ec9e307f26a6186db18e7601105ffa3d10b103196928fc5563d52cdd7",
+      "bytes": 5489
+    },
+    {
+      "path": "agents/seo-dataforseo.md",
+      "sha256": "0f393844279f911f27b24e8f04eb85f5dd53bb96aefcfb2077797e9da06acc32",
+      "bytes": 2226
+    },
+    {
+      "path": "agents/seo-drift.md",
+      "sha256": "25a55aa8d69b659454bb1ec44235e1e50062fb1ec284fea9f051de6857118fc7",
+      "bytes": 3451
+    },
+    {
+      "path": "agents/seo-ecommerce.md",
+      "sha256": "1e38cdd79e5ffa7644f6c5cde2f3edc343f917ed35f2621031b579e2ac3d5869",
+      "bytes": 4290
+    },
+    {
+      "path": "agents/seo-flow.md",
+      "sha256": "2524da988d1c02b113a735d56fd103dd2af5b72a02c59257cf9c0804e6050fa6",
+      "bytes": 2460
+    },
+    {
+      "path": "agents/seo-geo.md",
+      "sha256": "53ac935893d2da19292aa86cea5f21e55ffb62acb3eb62c7f87249ad4817e7bf",
+      "bytes": 4887
+    },
+    {
+      "path": "agents/seo-google.md",
+      "sha256": "63098aee6fc51dfc5d5d787dc62cd723e6e8625acecf920637156b4b63050922",
+      "bytes": 4058
+    },
+    {
+      "path": "agents/seo-image-gen.md",
+      "sha256": "f2dd3bd7b61a0e699c1cb8382808b7dda773f2bb635a031bae04f2afc78a686a",
+      "bytes": 2390
+    },
+    {
+      "path": "agents/seo-local.md",
+      "sha256": "0fe7c0a25d6cf8313efa4d7c1f43107c038233b17e009b99850cf374338c0ec7",
+      "bytes": 5907
+    },
+    {
+      "path": "agents/seo-maps.md",
+      "sha256": "4b0c7e2a2ca0bec2f444ead94a26d6f99c0f39b1ef73453281cf5ad81c426e5e",
+      "bytes": 5405
+    },
+    {
+      "path": "agents/seo-performance.md",
+      "sha256": "5ca6ce3830a42dc0b2d02b9ce85c819da22872ea41e5774d9cf8bf15074cd17f",
+      "bytes": 5508
+    },
+    {
+      "path": "agents/seo-schema.md",
+      "sha256": "7e5fbcd85a0b53c7fcca73deb48f8e9e72da3dade5fb5b00d342566993cfbe46",
+      "bytes": 4328
+    },
+    {
+      "path": "agents/seo-sitemap.md",
+      "sha256": "5ce28ac5d1fb41c3122cd4e0bcb2a135220be1c6e1b621aeaeba34168ef6f5a0",
+      "bytes": 2891
+    },
+    {
+      "path": "agents/seo-sxo.md",
+      "sha256": "26b672d2a97f670c1c573f4bbb1c4efed571a1f0287aebfa9c31d0b03f05c281",
+      "bytes": 5594
+    },
+    {
+      "path": "agents/seo-technical.md",
+      "sha256": "2c1d7f0a5ad8e1f09aacecc728bc1514bfef0ba1ae321bd3fa9bc5f1367906bb",
+      "bytes": 3674
+    },
+    {
+      "path": "agents/seo-visual.md",
+      "sha256": "0550d75e529f91d9100d36013010935681c9f0bc06ae793d416cf35d5c0139fe",
+      "bytes": 2793
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "721b8c83f761a789c5f1563dca6aefbc5916bfcc7f69955a5c8ec3b2811a2854",
+      "bytes": 15466
+    },
+    {
+      "path": "docs/COMMANDS.md",
+      "sha256": "1ad0607b788d87b1b3a785b96949c59454f35f1b3e5aacdf0aaa085fd8938caa",
+      "bytes": 27379
+    },
+    {
+      "path": "docs/FINAL-VERIFICATION-v2.2.5-2026-08-26.md",
+      "sha256": "0c6941dba65b9010ad784b6899a9c92dc99804619da5e2b9e7364d994b59b122",
+      "bytes": 8671
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "sha256": "020bd3dd2bdcf4ab7b42650daa5f5ed8a99b3d7fc107c60628058f6e86fb1e05",
+      "bytes": 4349
+    },
+    {
+      "path": "docs/MCP-INTEGRATION.md",
+      "sha256": "aee75d62a9d79031665533f1723a94fe5db66728f69b79b91ccee96d75eac922",
+      "bytes": 4928
+    },
+    {
+      "path": "docs/MIGRATION-v1-to-v2.md",
+      "sha256": "4476e3953d085e38af203e1e9ec9c9a82155ca76f40726264f5d600ca8e3fb24",
+      "bytes": 9036
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "sha256": "a826cbbcb0398bc1635e95b64867ca2fd7913bc1d795e615976ea38eed32e0b9",
+      "bytes": 4928
+    },
+    {
+      "path": "docs/WORKFLOW-public-private.md",
+      "sha256": "a02a640ebd94e1b7894fc55ed54600c3a03732cc7137f8476c6c14a673dc4288",
+      "bytes": 5812
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "f9fe954d44c159b25e7c3d4dd8db0f71861934002afca2b2c3a2451fa093fe32",
+      "bytes": 1728
+    },
+    {
+      "path": "schema/templates.json",
+      "sha256": "4bb417070cd51d0a5d91d54cda1af52bd88742bd868adfe2654e088d07fdda13",
+      "bytes": 9737
+    },
+    {
+      "path": "scripts/agent_ux_check.py",
+      "sha256": "78ee10a25551728f820ff9c5e3e7c2f17473f868207aa2218a4471c898caf6da",
+      "bytes": 10479
+    },
+    {
+      "path": "scripts/agentic_check.py",
+      "sha256": "067a30a1aa2dc603ae19d3e50a367545efbd776c404b6c7d53cbff082112f8b1",
+      "bytes": 45155
+    },
+    {
+      "path": "scripts/agentic_fix.py",
+      "sha256": "a25ba5c56d4bf85ddb78f81ae2a3c66a059f909a98fe426d4a02351cec43c294",
+      "bytes": 17175
+    },
+    {
+      "path": "scripts/analyze_visual.py",
+      "sha256": "7c1f8482f9410f48ed275d31c4d80dc8c0c26998853ca32f5c2c955869813d99",
+      "bytes": 7357
+    },
+    {
+      "path": "scripts/backlinks_auth.py",
+      "sha256": "d0a82c941bdc5ce8b4c5fb67eda2392f5f38805da82cdcacdeb7329d74e672d9",
+      "bytes": 22973
+    },
+    {
+      "path": "scripts/bing_webmaster.py",
+      "sha256": "eb9d30b3e99e3baa7dba8816da0092838bb1d843c905ca72efce9dd9a80983e9",
+      "bytes": 22294
+    },
+    {
+      "path": "scripts/capture_screenshot.py",
+      "sha256": "0a3ad4c22bf2b9116d43d9c88fcf59857cca45cfef6ee89f36d17c814254efe4",
+      "bytes": 6603
+    },
+    {
+      "path": "scripts/claude-seo",
+      "sha256": "72798d787ff647c625abb90f21f0b561c0f0946c81299c0c6ce46a7e0e97f2a8",
+      "bytes": 1784
+    },
+    {
+      "path": "scripts/commoncrawl_graph.py",
+      "sha256": "33b21f9873407371e98da96f9a0a2c96e1dd7e07fd6319dc506de695b9b6d8a5",
+      "bytes": 17580
+    },
+    {
+      "path": "scripts/consistency_check.py",
+      "sha256": "f83fc0220d5b83f0eb7b66c8da5b584f3a492abd37ea696a8ea34e5595803b0f",
+      "bytes": 14623
+    },
+    {
+      "path": "scripts/content_humanize.py",
+      "sha256": "8a2b262042ec3b2b3b13d7f1e9072526787cda14e981fb67896ea31e94dbfe8c",
+      "bytes": 12891
+    },
+    {
+      "path": "scripts/content_quality.py",
+      "sha256": "7ffa979fef4ef3311ed5693b094ef3f6bf677dd0d2cf0a1379be1a11a0535945",
+      "bytes": 13400
+    },
+    {
+      "path": "scripts/content_verify.py",
+      "sha256": "f16f94d17d9556bf6e847b9abd0a28b0ddf6deef0af0cc2fd277489a0e83b913",
+      "bytes": 7278
+    },
+    {
+      "path": "scripts/crux_history.py",
+      "sha256": "3a6e0bdaea0d9e39bff410672f262eb66ca4a7ac0aee2eb08afd2328d51099c6",
+      "bytes": 10975
+    },
+    {
+      "path": "scripts/dataforseo_costs.py",
+      "sha256": "001d086ea778ec3412455d9a14e7a12eba7688851d079403d40ecb5a6f8763c9",
+      "bytes": 20258
+    },
+    {
+      "path": "scripts/dataforseo_merchant.py",
+      "sha256": "461ad8329668720cfd6d90c2aac5d195db35ae5ec758537a8fef10797bd9d2c1",
+      "bytes": 17058
+    },
+    {
+      "path": "scripts/dataforseo_normalize.py",
+      "sha256": "588d87b6efb0dfef3b4ba9206655959b2218208d7cbb0d39c953ac12e0859974",
+      "bytes": 15054
+    },
+    {
+      "path": "scripts/domain_history.py",
+      "sha256": "f94d6b02100a978a792c060345785e07f01a5005add1732dcf5023c05222afc1",
+      "bytes": 10882
+    },
+    {
+      "path": "scripts/drift_baseline.py",
+      "sha256": "416cc3a39fba37933fc87facfe95887c0db1809c6d0ec0011ad8517c7f22738f",
+      "bytes": 13796
+    },
+    {
+      "path": "scripts/drift_compare.py",
+      "sha256": "2e493900b27b540126650a433f9509ef59adc82e69e961a7eb7b3eb47315e739",
+      "bytes": 22811
+    },
+    {
+      "path": "scripts/drift_history.py",
+      "sha256": "d31e35b1cc86748535411b2bb39f5d66a909c7b1ddac97f26aa3acc8187b27a1",
+      "bytes": 3530
+    },
+    {
+      "path": "scripts/drift_report.py",
+      "sha256": "d1b522100ef9a3d4b4572e6966a376fabd47faf4d769acd47de6985486d3f540",
+      "bytes": 11294
+    },
+    {
+      "path": "scripts/fetch_page.py",
+      "sha256": "77212f108d916339661b9247dbd636e291e42c32eab61f14bb8fd2123954f93f",
+      "bytes": 11754
+    },
+    {
+      "path": "scripts/ga4_report.py",
+      "sha256": "0cf748ece7580043066ef462183a7d0c30c0a9b787905971fbb3861cd0ddc773",
+      "bytes": 17220
+    },
+    {
+      "path": "scripts/gbp_deprecation_lint.py",
+      "sha256": "cec4d1c5bc102cbf280861b080a6214e8fe48ceb6c4430be3e07241cf7cdd053",
+      "bytes": 4860
+    },
+    {
+      "path": "scripts/google_auth.py",
+      "sha256": "7c307debc82b1dbba7dd159cb3238f270c05e57d4781cb0d0a50beb39cbfff4d",
+      "bytes": 34899
+    },
+    {
+      "path": "scripts/google_report.py",
+      "sha256": "db0917afe02a852c31061cd1d9816a15668e72ecb84e9ef1cc571f519ade2aa6",
+      "bytes": 100608
+    },
+    {
+      "path": "scripts/gsc_inspect.py",
+      "sha256": "6782618db25496e915540714f8bb768a603ede3c199b25d9b0938755b990f161",
+      "bytes": 11351
+    },
+    {
+      "path": "scripts/gsc_query.py",
+      "sha256": "6397c8c7b26a92fe3c69add1718efa995f0ffb38822d5f20a5e5dbe714ff5732",
+      "bytes": 19473
+    },
+    {
+      "path": "scripts/indexing_notify.py",
+      "sha256": "4199d17fbd5c4c74dd38d994edbc7784b7b44097fcac22e0476ec9407bf7f44d",
+      "bytes": 10449
+    },
+    {
+      "path": "scripts/indexnow_submit.py",
+      "sha256": "0063aa107991d7345e4aa4876dfd4bbc7f6ff4956565ec8bd6705fe3bd9c73ef",
+      "bytes": 9002
+    },
+    {
+      "path": "scripts/iptc_ai_label.py",
+      "sha256": "49277f6c651bbeaa579939ac9dc705861c6351644c2b8e7d915403c67a7b89a8",
+      "bytes": 7758
+    },
+    {
+      "path": "scripts/keyword_planner.py",
+      "sha256": "498a808a62f27abba04aba92568e85a309ffc0da6a93a290411dae56c20c0528",
+      "bytes": 11012
+    },
+    {
+      "path": "scripts/keywordseverywhere_api.py",
+      "sha256": "c2c58f68d75f360e91b09b618d94dae557c8261a11fb8d4493e5009c22c1e4f6",
+      "bytes": 10246
+    },
+    {
+      "path": "scripts/lcp_subparts.py",
+      "sha256": "92662c91275f4b2b30cfb78939efb3a9bb7e33ae18402336c7cc32e770a0cf06",
+      "bytes": 7418
+    },
+    {
+      "path": "scripts/lighthouse_agentic.py",
+      "sha256": "5ff42f007411e8bed34f35b143f7c7d19f81b26abd99bf8baf981bfa87ddc324",
+      "bytes": 17836
+    },
+    {
+      "path": "scripts/matomo_auth.py",
+      "sha256": "272dcfac8791864e2290e08c4d648df807c203291fe89d907be5277235c93d9c",
+      "bytes": 23736
+    },
+    {
+      "path": "scripts/matomo_report.py",
+      "sha256": "08a6d3253bd09027e92c2f6ce06e6f3f3ab9fda857411726c121c689d9a91222",
+      "bytes": 26499
+    },
+    {
+      "path": "scripts/metadata_template.py",
+      "sha256": "28d7bcd1a98c96b010d93a48659a17dcad05f65732728025c0da9bb96ef27734",
+      "bytes": 15455
+    },
+    {
+      "path": "scripts/moz_api.py",
+      "sha256": "0dfa4d0d8c2f92c261d03e4082fb5869f38b4c4356760d037b4dec50aa3692c5",
+      "bytes": 15038
+    },
+    {
+      "path": "scripts/nlp_analyze.py",
+      "sha256": "327686432f1fc5a77a9732e1330ba64f416bc97480e7dc288aca6a5ab90ca7aa",
+      "bytes": 12436
+    },
+    {
+      "path": "scripts/pagespeed_check.py",
+      "sha256": "e7e853e3d6ad6ab8690fce7c379bc9482d64408754db76b97560f069d0b917f6",
+      "bytes": 23891
+    },
+    {
+      "path": "scripts/parasite_risk.py",
+      "sha256": "b4cccea1275f9f6f82c0b04d66495297ddcce87632d6805392af759a7e483ae9",
+      "bytes": 9076
+    },
+    {
+      "path": "scripts/parse_html.py",
+      "sha256": "978ffe0431f6ed8b4aa96ac905c2ba262f4f2e9b99abd89cab58be2e078dc66b",
+      "bytes": 9905
+    },
+    {
+      "path": "scripts/portability_check.py",
+      "sha256": "0875531ab12c929dc339a29d48383ac3e04f42db3fdd59a1a28ed657edeaacc1",
+      "bytes": 7984
+    },
+    {
+      "path": "scripts/preload_check.py",
+      "sha256": "45745c90755f4cbfb13ec812aef076544e19a48ce9151c18f8749db0a78256b7",
+      "bytes": 8858
+    },
+    {
+      "path": "scripts/release_sign.py",
+      "sha256": "97a04488f5f23419422e3c6ba4fa36028e4aa1e7168c87bed851dbbabe616e2b",
+      "bytes": 5742
+    },
+    {
+      "path": "scripts/render_page.py",
+      "sha256": "09b946742dd3769cc53fc7ad83c56eb6965834922e74e01de7b6c426a630e0fd",
+      "bytes": 27279
+    },
+    {
+      "path": "scripts/runtime.py",
+      "sha256": "1798de85f4611a1e34801937d484f5ca69dd8a2a437a8b230ba1e440e8835941",
+      "bytes": 17629
+    },
+    {
+      "path": "scripts/schema_ecommerce_validate.py",
+      "sha256": "70075b3d6175dca37523d004f108844921224ea9ac0b3eb0b8ba525c0a9a7edc",
+      "bytes": 12124
+    },
+    {
+      "path": "scripts/schema_generate.py",
+      "sha256": "355c1d79378e99b603e3a9909d02197943b28f2b353043a32258f7b1b8c51995",
+      "bytes": 12243
+    },
+    {
+      "path": "scripts/seo_updates.py",
+      "sha256": "cc78bdd184ba74d0d4f9c1caab40bd79d68b7450180460d44598a2307ef54f7e",
+      "bytes": 6566
+    },
+    {
+      "path": "scripts/sitemap_discovery.py",
+      "sha256": "6fc8a9f869b498f435f6554c83cc8ea7c3fcc91e22e2011bef47a2b8a4947e7f",
+      "bytes": 10286
+    },
+    {
+      "path": "scripts/sync_flow.py",
+      "sha256": "9759792787b5f05990d77df0a79cc99c2454d9d7fcf5e256d987698a4c929adf",
+      "bytes": 12199
+    },
+    {
+      "path": "scripts/ucp_check.py",
+      "sha256": "6b172f605f52092637cdb44b33d5beefee4609c1a620f79a9baab2d65fd10911",
+      "bytes": 11419
+    },
+    {
+      "path": "scripts/unlighthouse_run.py",
+      "sha256": "9709031a95082a4e03ebc63bd792fa21987483d222858ada27df39c84f0004ab",
+      "bytes": 11354
+    },
+    {
+      "path": "scripts/url_safety.py",
+      "sha256": "0b2f6e2836546f046739387c32c6d23df121d792546df30c3117b4a2d97c1692",
+      "bytes": 40205
+    },
+    {
+      "path": "scripts/validate_backlink_report.py",
+      "sha256": "9eba82a54f5584c6dff8bbfd9754ef4de04d783362813600852a18a372fa8642",
+      "bytes": 15662
+    },
+    {
+      "path": "scripts/verify_backlinks.py",
+      "sha256": "de25ef422ca03079a0bc4bb2fe6ddd79aacccc895c199632efe1b5f14c4406f4",
+      "bytes": 13130
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha256": "7868e3e6bf0dcec87a36ce3ec30ca197a4ef940dae8bb25897ec6a9a74e5d02f",
+      "bytes": 4877
+    },
+    {
+      "path": "scripts/youtube_search.py",
+      "sha256": "f34e6a4ffdda436e42d457a09f3f26d4f907d440d50ba780e7102aeebda0e670",
+      "bytes": 12630
+    },
+    {
+      "path": "skills/seo-agentic/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-agentic/SKILL.md",
+      "sha256": "17df55b1248c1bdbe2b3caea27d2eaa1060dee15361b4c1f02039bbee5f35c14",
+      "bytes": 11469
+    },
+    {
+      "path": "skills/seo-agentic/references/access-policy.md",
+      "sha256": "62b90e452a58f2e244885b6c060841d1dd9753c4e209e5b9539345545d6abcd8",
+      "bytes": 6262
+    },
+    {
+      "path": "skills/seo-agentic/references/agent-friendly-pages.md",
+      "sha256": "42ada14d5ccb40864ade4a6c526887d16efb8b5ba6a6643a7b9e24d92ad4a4f1",
+      "bytes": 5266
+    },
+    {
+      "path": "skills/seo-agentic/references/discovery-and-markdown.md",
+      "sha256": "ed35c16310fd01cfa593ca4ad54d2cc8662c4addff6bcbff0b5f4c68d5390179",
+      "bytes": 5992
+    },
+    {
+      "path": "skills/seo-agentic/references/lighthouse-agentic-category.md",
+      "sha256": "3e99f0396f21bff5e7901a7b9c7dd0594d3c866006d0a551775cf189adfc2b1f",
+      "bytes": 6485
+    },
+    {
+      "path": "skills/seo-agentic/references/vendor-matrix.md",
+      "sha256": "09297792722249a3a73c16c412b2899b3af30e4c8f98ecfe1033443773b27c4e",
+      "bytes": 5104
+    },
+    {
+      "path": "skills/seo-agentic/references/webmcp.md",
+      "sha256": "5e71293f7baae8c04ef443aab43224637d06759170e0fc73422a2ea91fcb12a1",
+      "bytes": 6244
+    },
+    {
+      "path": "skills/seo-audit/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-audit/SKILL.md",
+      "sha256": "0eee8999b05c587f58cfb8cc8ccfad7c977498653a474e2f3e7e2c51807d96e5",
+      "bytes": 10289
+    },
+    {
+      "path": "skills/seo-backlinks/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-backlinks/SKILL.md",
+      "sha256": "db0ef68ecffaaa0cda495c5f9c186f2f89484a1cdd31dbaae9a53cff18cd4c39",
+      "bytes": 15242
+    },
+    {
+      "path": "skills/seo-cluster/SKILL.md",
+      "sha256": "9041eee8c40d60394790f27486aca9a424cb8b26971715fff7f6b07f701ff773",
+      "bytes": 13111
+    },
+    {
+      "path": "skills/seo-cluster/references/execution-workflow.md",
+      "sha256": "7e5e067689a2ebe82d0a949a4b9b9c6568fc283e31a6b6e928fbb7677438f0db",
+      "bytes": 6455
+    },
+    {
+      "path": "skills/seo-cluster/references/hub-spoke-architecture.md",
+      "sha256": "5553d9fd80145362073fde96c0c615df4ed9a000bf6f928a71641ec52e85c39b",
+      "bytes": 6291
+    },
+    {
+      "path": "skills/seo-cluster/references/serp-overlap-methodology.md",
+      "sha256": "a0c02dcd394a0cfe4636c02ce03da4ff58dc68b6f55ee0b3b9e36e10f20f7662",
+      "bytes": 4514
+    },
+    {
+      "path": "skills/seo-cluster/templates/cluster-map.html",
+      "sha256": "73d50e0bcab7855b4c50b182b46ad2f38965aa2fc854bc41de5acdd611a6d8c9",
+      "bytes": 18882
+    },
+    {
+      "path": "skills/seo-competitor-pages/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-competitor-pages/SKILL.md",
+      "sha256": "99cfecb7c486428d9fb6180f34f6d922acabd9a3999b272ad4ac0e44efb6d02d",
+      "bytes": 7710
+    },
+    {
+      "path": "skills/seo-content-brief/LICENSE.txt",
+      "sha256": "25bc881ab74d06a365261e004f44c445a78a5241ee322cdeeb4ba7d7669be9b1",
+      "bytes": 147
+    },
+    {
+      "path": "skills/seo-content-brief/SKILL.md",
+      "sha256": "bdca005f46877fcab89bcedb3fa3cab40240e51a1617ad5a13ede7edd200ed16",
+      "bytes": 10535
+    },
+    {
+      "path": "skills/seo-content-brief/references/excluded-domains.md",
+      "sha256": "17b3fb0c9f0cd979c949d54a3e88eb7b39b5d3514baaaa0560022b16c3ed32b8",
+      "bytes": 2881
+    },
+    {
+      "path": "skills/seo-content-brief/references/keyword-density.md",
+      "sha256": "5f66b7516fda29ca43b4db64874ad445390a3eacfe3c6e99bee2f45b3c7ab348",
+      "bytes": 3134
+    },
+    {
+      "path": "skills/seo-content-brief/references/page-type-templates.md",
+      "sha256": "ac638c16ee6ef871d07d8d8172e23a491e11e5e9734f5a5f9ac070631156fd6d",
+      "bytes": 7174
+    },
+    {
+      "path": "skills/seo-content/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-content/SKILL.md",
+      "sha256": "c2b2d458f010e6dd38597eff24370046bb5dc67983af97945cda1aac0741e21f",
+      "bytes": 12717
+    },
+    {
+      "path": "skills/seo-dataforseo/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-dataforseo/SKILL.md",
+      "sha256": "269aa8357308c0c268957323accabd4d45efcbeba3371021cdf841c265960359",
+      "bytes": 17716
+    },
+    {
+      "path": "skills/seo-dataforseo/references/cost-tiers.md",
+      "sha256": "a17c4d446f44cc5aae80539d235caa16ff57ecde9d1569d086e9557ac766be7d",
+      "bytes": 3450
+    },
+    {
+      "path": "skills/seo-dataforseo/references/tool-catalog.md",
+      "sha256": "1fc02f7ea2d09fe5f40a9392dc17106f23385b02659ab06ee6bce3d718bf33da",
+      "bytes": 3003
+    },
+    {
+      "path": "skills/seo-drift/SKILL.md",
+      "sha256": "b4e748a322a8518afb2ddf6c3d7c65dfee9f956a6f04d11023ad98993847a09e",
+      "bytes": 7412
+    },
+    {
+      "path": "skills/seo-drift/references/comparison-rules.md",
+      "sha256": "45b806d8cfbc3d3fa03f2095562c84b26bcbad1359d7c45bba7304849f04fc20",
+      "bytes": 5723
+    },
+    {
+      "path": "skills/seo-ecommerce/SKILL.md",
+      "sha256": "62032f7947642ed4fa132e3549d3d92c9fab21b8c506b82c2a038e7242e56cec",
+      "bytes": 14930
+    },
+    {
+      "path": "skills/seo-ecommerce/references/marketplace-endpoints.md",
+      "sha256": "2126051c977c899ed4cc5fb12e6f0f5dc0caafe8a0236e59aeaab8d984b9021e",
+      "bytes": 3862
+    },
+    {
+      "path": "skills/seo-ecommerce/references/ucp-universal-commerce-protocol.md",
+      "sha256": "ce30046ab217cc3f2de429713d54431607ecafb6f5ffa8e8ab28ac726c57d5cd",
+      "bytes": 8272
+    },
+    {
+      "path": "skills/seo-flow/SKILL.md",
+      "sha256": "4e9212cb42a78fde5746db5497a5b4b7d74bdf556464edf0ae9efe44509040d6",
+      "bytes": 5654
+    },
+    {
+      "path": "skills/seo-flow/references/bibliography.md",
+      "sha256": "1f7e5d60194c252a6b38ba1eb78970cdf5bea2f096563c508bfad36f7e445f75",
+      "bytes": 8051
+    },
+    {
+      "path": "skills/seo-flow/references/flow-framework.md",
+      "sha256": "029c009e0fd5fc77763a530af24a83bf8cf21eb703158317bde8518446af0887",
+      "bytes": 4896
+    },
+    {
+      "path": "skills/seo-flow/references/flow-prompts.lock",
+      "sha256": "d71316f8f2542e65990ce3df82f63ac9acd5da74b42325825d8fdb2de8e33030",
+      "bytes": 6165
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/README.md",
+      "sha256": "26e434454595c47c63e3ef5c4c5d975a8a8208ca01887e51ab09a45eb679085a",
+      "bytes": 4536
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md",
+      "sha256": "0bab3257ca8c588ffe6e96adc97d2201fc1fb4cfd5a8674cfeb97a640ab78ce1",
+      "bytes": 2172
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/content-prioritization-prompt.md",
+      "sha256": "e8d12ec0b02de03de7b0066a1b29b4e5523f49413bb276c3d936ca068f1645b0",
+      "bytes": 2124
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/keyword-research-prompt.md",
+      "sha256": "3bd3c230f682c65c328324d37dada59a76ca85326bfe97fbf3acf6849e36525d",
+      "bytes": 2106
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+      "sha256": "18b92580c0de1d0df6a8353efc0fd98864ed9e7090318cd4564cae84f79e2bd1",
+      "bytes": 2178
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/find/prompt-audience-avatar.md",
+      "sha256": "450d58afe2499f7644f947725fcaaf9463931e09d8fdcb93765d25c6e0750d22",
+      "bytes": 2106
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md",
+      "sha256": "88b5a6aca87c0f5ad12ed0a9cec601c23e944db2ff1014502fe7218064249be4",
+      "bytes": 2130
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md",
+      "sha256": "d33e8918c05d99136baf476165a57a94b7cc0c93bf3585d49bb7212d93bb0455",
+      "bytes": 2118
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md",
+      "sha256": "65a9876a959b4aba089e4aac9bb078eb2c487726285f0828535b9178f7410dcb",
+      "bytes": 2127
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-categories-prompt.md",
+      "sha256": "f365d29c9bc3be0aa692a4b0f38515a0d75061ace60603285dbd2aed4a180ec8",
+      "bytes": 2103
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md",
+      "sha256": "80c73c39f7240ba87bdefd19babdde7f15e6dfe0cdebfa490d62dad2c3dc8702",
+      "bytes": 2133
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md",
+      "sha256": "d3ee5d748597d85cbd15b31a0e72a9d67a6f91d65f0f8a750ff7bd5ad0398f00",
+      "bytes": 2133
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md",
+      "sha256": "3c1eaca3250b854b025729aee39df6593518595eb6d2ec1f9cc24bc927ae3845",
+      "bytes": 2133
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/gbp-services-prompt.md",
+      "sha256": "a82eebb02b5b5b9d2e02fd21f364dae9641aae69e9a8c2ddfd1ddd975d5ea0aa",
+      "bytes": 2097
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md",
+      "sha256": "82f9d16c7158978c50c7f2ee783d636e6e54c27bde4ae56aa4df0a729710fe6e",
+      "bytes": 2151
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md",
+      "sha256": "5db99be445c3d72fdaabf75ca92133981b586d6e48221e8df1bec06233ff62f7",
+      "bytes": 2130
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md",
+      "sha256": "b0000ade4e79a06e65d568e17a06ec98ababae5b33d16f61f1e101dd3f0b5720",
+      "bytes": 2145
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md",
+      "sha256": "6e24da4f82b486b614e9ca2b4ae4cd8554865aedd6043218334d9dfe245afed3",
+      "bytes": 2160
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md",
+      "sha256": "23b75608644f51981e8421e307a1f9c51497587fe01a846828b9142525830fd0",
+      "bytes": 2148
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+      "sha256": "92e0f8e7fded7438ed86ac58fa9f0c66122308e36903eb064125b0a2e8a10f87",
+      "bytes": 2151
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/basic-prompt.md",
+      "sha256": "5f8ddce6655b91e3bd23ff0174d0890d46db4c86b2074230793a834c51f87d34",
+      "bytes": 2085
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md",
+      "sha256": "4427a6ffbe45fbfa397cc3e7bb8ff2cc2d1e4652f2b2ddfff2e3ccd299ae79cc",
+      "bytes": 2121
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md",
+      "sha256": "e88b8781e6a1f69cc7043fbdd0b79365d87691daa1d0b910957fe61aa8a9964c",
+      "bytes": 2121
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/claude-prompt-1.md",
+      "sha256": "ae0f7460bf85ac666af355d4b3960f31a07beb2a009154c2c3c336de45b8afe9",
+      "bytes": 2094
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/claude-prompt-2.md",
+      "sha256": "881278d4c5872b2d2f03eef8df21fb1dbee499acab565d039531f96d455528c3",
+      "bytes": 2094
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md",
+      "sha256": "cfe26d1f07bd98f5a98a3e6a825d0127cf7b003519fdfb595c4761393ac143ea",
+      "bytes": 2097
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md",
+      "sha256": "d35a7f848aab67df85391acf5f6208bdcea6f51bf454a4e87129446bc928f3f0",
+      "bytes": 2103
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md",
+      "sha256": "e8e55404737510c63080c93401a00097058eee7ef40f56f77659cccda29cc984",
+      "bytes": 2103
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/follow-up-prompt.md",
+      "sha256": "454d9b9f684f2dfa54530819e2505361b165d54e3d1fa92a1be61367ac5da072",
+      "bytes": 2097
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md",
+      "sha256": "770b5ba49150b2a48753a7c51d60d3b93c3091fb5aedc24a7c8f41c463517e55",
+      "bytes": 2136
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md",
+      "sha256": "b58c751c5552592b5e7f0e176c21fb0c509924a7a98bc635e32e1b93e8dff3fd",
+      "bytes": 2136
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md",
+      "sha256": "4e7a894b86b03a20c4b9b06239fe97f224f680c6ab8d68d942a4e546182b7077",
+      "bytes": 2181
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md",
+      "sha256": "be767e88a2b3b6c9a4bbbc4f2f2611e1606babdf9b18163cab8b5050966048ab",
+      "bytes": 2109
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/schema-prompt-1.md",
+      "sha256": "a7b3f4fe17f7e0b5257b2cb940a00b005c44e21bfdb13de0d889b4a5cbd6fa09",
+      "bytes": 2094
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+      "sha256": "45112ea78038130ff3d29d6e965401d234a4a2a540883e6c625a877defa46e24",
+      "bytes": 2157
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+      "sha256": "f08df22ed90c0ba1b7b7f529331309161a886fd2e12bf4ff3ec955bb10fd22ee",
+      "bytes": 2166
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md",
+      "sha256": "51274ab6e21a62892171c53397f935242f55c3726f3d2a11850985839b047ff4",
+      "bytes": 2115
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md",
+      "sha256": "0a76f9075c783957d45ab58cec04f4701f01e235a65e9d97ab7b52f7c10f3201",
+      "bytes": 2130
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/optimize/visiblity-prompt.md",
+      "sha256": "769684b2895051491a7eed1eb1ff0e0065d2472cc395fee04fc99eed85df83de",
+      "bytes": 2097
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md",
+      "sha256": "dbbe1d51ef93bdc1918bfab1b0948a0d87500410ea8d6727f088e5e4f937dadf",
+      "bytes": 2240
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/conversion-audit-prompt.md",
+      "sha256": "1fb96a2a2c0dcb096389992d14fc12738523c94e2559ebd71a46b8264f2049d7",
+      "bytes": 2204
+    },
+    {
+      "path": "skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md",
+      "sha256": "9521283c3578d613a9a25f985d609995d92d284f982d0377160a646563fa7c18",
+      "bytes": 2133
+    },
+    {
+      "path": "skills/seo-geo/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-geo/SKILL.md",
+      "sha256": "881fffb9e1d09cfbc608e93514a8b5534b42e74ebc3d0d63a365cedb48e717f7",
+      "bytes": 21979
+    },
+    {
+      "path": "skills/seo-geo/references/google-ai-optimization-guide.md",
+      "sha256": "587dfbe3a298b625341883cffe389441f6acff61fb4e12be7586c7e1cf455348",
+      "bytes": 7224
+    },
+    {
+      "path": "skills/seo-geo/references/llmstxt-evidence.md",
+      "sha256": "6cc60538738ddabdb6da0657d43cd187d63f377140a3d4deed52dac634c344a1",
+      "bytes": 3308
+    },
+    {
+      "path": "skills/seo-google/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-google/SKILL.md",
+      "sha256": "725839040e5cccc6f11dd61ad5e9963af8a85e613a2a965d4c1f15113abc66c6",
+      "bytes": 16693
+    },
+    {
+      "path": "skills/seo-google/assets/templates/cwv-audit-report.md",
+      "sha256": "94e81dd051757c8fe588756206eb83cc2d1c3907a76610862f01a1bcd1c2ac5d",
+      "bytes": 1587
+    },
+    {
+      "path": "skills/seo-google/assets/templates/gsc-performance-report.md",
+      "sha256": "6b1d42af50c7cf052ea071466c0c2dbf7bb8e76c0c7a4891c7d5f559607aba9a",
+      "bytes": 1441
+    },
+    {
+      "path": "skills/seo-google/assets/templates/indexation-status-report.md",
+      "sha256": "afc337905d82f83659a229382432876edba9bd9af6e589b3e4de4786974f13b3",
+      "bytes": 1126
+    },
+    {
+      "path": "skills/seo-google/references/auth-setup.md",
+      "sha256": "8668c1ea20092c30ca8b06f91a9bca40d5e5653fcb4405f4d1f6c234d39ffde8",
+      "bytes": 5270
+    },
+    {
+      "path": "skills/seo-google/references/crux-history-api.md",
+      "sha256": "73da146d03fa60e8a7d300698c0949c7f1c7ad48acb809d9dc183f0ac8922966",
+      "bytes": 2028
+    },
+    {
+      "path": "skills/seo-google/references/dma-consent-mode-v2.md",
+      "sha256": "18ff25a0a9a9679cc5301cc1d76bea25046f6e3991ff2771d7eb2f6419b9aef8",
+      "bytes": 3119
+    },
+    {
+      "path": "skills/seo-google/references/ga4-data-api.md",
+      "sha256": "b6c29f9d830df1a406339c5776a7aebd648c5d2fd33eb7a2689106c5b3c7bbb9",
+      "bytes": 5364
+    },
+    {
+      "path": "skills/seo-google/references/indexing-api.md",
+      "sha256": "5d2a4d4dc588ec94f37d42a49887e2769d177b6d179429cd1e54759ab9b12577",
+      "bytes": 3273
+    },
+    {
+      "path": "skills/seo-google/references/keyword-planner-api.md",
+      "sha256": "5581b74899f9515481e861e5c42fef642b782ad65cc4990c6d4db9f66a3625cd",
+      "bytes": 2398
+    },
+    {
+      "path": "skills/seo-google/references/nlp-api.md",
+      "sha256": "c21c9a1233d36659f5a3fa5f629917b434ce015f98d794ad8dddfbad8a752e18",
+      "bytes": 2333
+    },
+    {
+      "path": "skills/seo-google/references/pagespeed-crux-api.md",
+      "sha256": "70bd5ad30369caa89f559698acf29b689c317d9c2e8d39ce1260510c2793bdd8",
+      "bytes": 5208
+    },
+    {
+      "path": "skills/seo-google/references/rate-limits-quotas.md",
+      "sha256": "ad1f7d096e229526c8fe9026a98124a05221f53636eb6023f362dfd5fd3c2f96",
+      "bytes": 3379
+    },
+    {
+      "path": "skills/seo-google/references/search-console-api.md",
+      "sha256": "85d81675748e7cb22e4d86c5639b8078dff341dcfabe22dc7b7acd8290e380bc",
+      "bytes": 5657
+    },
+    {
+      "path": "skills/seo-google/references/supplementary-apis.md",
+      "sha256": "b8937fb31fa09b2c2a09ad2573191183cad219cebafc09136a88eac133cddbc1",
+      "bytes": 2812
+    },
+    {
+      "path": "skills/seo-google/references/youtube-api.md",
+      "sha256": "9db7a517b3f9b3e5191465ebe6168ac3f7b2ce0edd8f605817e2abd65f295d13",
+      "bytes": 1595
+    },
+    {
+      "path": "skills/seo-hreflang/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-hreflang/SKILL.md",
+      "sha256": "ee99ea3f017e703244a688e4d3338d9c8102e9c7dd1229ae58ebaab668cb839e",
+      "bytes": 13827
+    },
+    {
+      "path": "skills/seo-hreflang/references/content-parity.md",
+      "sha256": "b6691601644bfa06393bfdd5144a44e75b8845cef32ce60f9a84ab1b9250c67e",
+      "bytes": 4126
+    },
+    {
+      "path": "skills/seo-hreflang/references/cultural-profiles.md",
+      "sha256": "b9719c15c897af247aa1601dc59b7ef856efd0f5226112f741145091e67166eb",
+      "bytes": 4942
+    },
+    {
+      "path": "skills/seo-hreflang/references/locale-formats.md",
+      "sha256": "f9278680533041a72e3fe7fc29244453a7bf9542e9f25f16da9a5c1590f7b310",
+      "bytes": 3521
+    },
+    {
+      "path": "skills/seo-hreflang/references/machine-translation-qa.md",
+      "sha256": "8cccc6d268f93af80a6d321ce42c28f6ab60cf5117ebb0d93018063f6f881836",
+      "bytes": 3516
+    },
+    {
+      "path": "skills/seo-image-gen/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-image-gen/SKILL.md",
+      "sha256": "1f419100c339a833c5ccc0e0e6fbe5e01e18451bde8a83314ff89127f791d557",
+      "bytes": 8419
+    },
+    {
+      "path": "skills/seo-image-gen/references/cost-tracking.md",
+      "sha256": "68db26647d0dee334a00afbb15d15430633823651349844e9066992ab2631ff6",
+      "bytes": 1185
+    },
+    {
+      "path": "skills/seo-image-gen/references/gemini-models.md",
+      "sha256": "1b94a2d256e5e15f12ab33c17065ad4f49bdd92025a1e0540cd27d4d42e40d4f",
+      "bytes": 8037
+    },
+    {
+      "path": "skills/seo-image-gen/references/mcp-tools.md",
+      "sha256": "3affbc47e0475d0301584b3ef1516126b180451e94676e9f0eb19d70ca6f761d",
+      "bytes": 4013
+    },
+    {
+      "path": "skills/seo-image-gen/references/post-processing.md",
+      "sha256": "73f0ad0fff971ad1ec3abf2710d18eaa1c273ca298342b99af09afbecafa9609",
+      "bytes": 5201
+    },
+    {
+      "path": "skills/seo-image-gen/references/presets.md",
+      "sha256": "074b2a54deae13cf9f1a79915cdad6ecd655658222b53dc10d2d312c637c9693",
+      "bytes": 2250
+    },
+    {
+      "path": "skills/seo-image-gen/references/prompt-adaptation-safety.md",
+      "sha256": "8313e96d7eb76b33558662e2560a029e32bf5b3f96297bb23348884750af2f01",
+      "bytes": 4519
+    },
+    {
+      "path": "skills/seo-image-gen/references/prompt-engineering.md",
+      "sha256": "fb12b8e3fd9df5919ae6a2e6dff9df5fbc4f874b7730f9ef28e3106db743f709",
+      "bytes": 9541
+    },
+    {
+      "path": "skills/seo-image-gen/references/prompt-templates.md",
+      "sha256": "a3a24634bebdecb886669e5c86e279bcb73fe8af725a4d73840f7b5d41ce76da",
+      "bytes": 7990
+    },
+    {
+      "path": "skills/seo-image-gen/references/seo-image-presets.md",
+      "sha256": "7c806dd2bfdbc683b6b48bbcc5f7e109ab31a26209f308bccfd4b2ae668088a5",
+      "bytes": 4163
+    },
+    {
+      "path": "skills/seo-images/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-images/SKILL.md",
+      "sha256": "51afe540d638d2b10121bfecc46d1b2ecb652d544e52689d544e3efb0f4f6d82",
+      "bytes": 16973
+    },
+    {
+      "path": "skills/seo-local/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-local/SKILL.md",
+      "sha256": "5a5d0c0a97c0b9d5aed613c96c39e63401e640a3c0c65bf3aa303a588bba21a2",
+      "bytes": 17866
+    },
+    {
+      "path": "skills/seo-maps/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-maps/SKILL.md",
+      "sha256": "95ca6999978193e4205ed34195d8cf80b84feeab70a7d3b85a758a5737ad519b",
+      "bytes": 12412
+    },
+    {
+      "path": "skills/seo-page/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-page/SKILL.md",
+      "sha256": "4036cb2fec69242350d7c9a4bea99dffada4c0287ec7c344a5f42018f3bcf6c2",
+      "bytes": 4422
+    },
+    {
+      "path": "skills/seo-plan/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-plan/SKILL.md",
+      "sha256": "fd1de9df9518bf9e3520915b2b610942fa75241ad9b1538c0b3b2711c949066f",
+      "bytes": 4415
+    },
+    {
+      "path": "skills/seo-plan/assets/agency.md",
+      "sha256": "63f159b62a81c91b0570a67eba779c7c9961f0222b15accb8dc4115455d60016",
+      "bytes": 4522
+    },
+    {
+      "path": "skills/seo-plan/assets/ecommerce.md",
+      "sha256": "f25619c871f85542cd1d656598607023b63805ed0f7f030b50d1b09f98563f16",
+      "bytes": 4940
+    },
+    {
+      "path": "skills/seo-plan/assets/generic.md",
+      "sha256": "f6ae9d03d98361ce032d6bf1af60f6d5e124aa46babeb34e24028fb32c7a45f9",
+      "bytes": 4280
+    },
+    {
+      "path": "skills/seo-plan/assets/local-service.md",
+      "sha256": "310530e66741e7d155e131850009bcc4a3148b9510905227ac09fd0f3fd00ab6",
+      "bytes": 5567
+    },
+    {
+      "path": "skills/seo-plan/assets/publisher.md",
+      "sha256": "30e3f4b9158053ea01a58e2aff6476f7162ba037b9f3998a68596ea8f6e22694",
+      "bytes": 4773
+    },
+    {
+      "path": "skills/seo-plan/assets/saas.md",
+      "sha256": "cec7c2e52f65c6e13460793758ae9ae169d861c7507f735f3dd5cb0975a51b1b",
+      "bytes": 4550
+    },
+    {
+      "path": "skills/seo-programmatic/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-programmatic/SKILL.md",
+      "sha256": "a987a228640cd917cf145d92772b1f45ca7d3486cf83dd1a7677b1999fff1ee4",
+      "bytes": 9756
+    },
+    {
+      "path": "skills/seo-schema/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-schema/SKILL.md",
+      "sha256": "91a5a7b33cd1dca1c1e948556735352696c1e77e63af56f01cd723eac7bd519a",
+      "bytes": 7076
+    },
+    {
+      "path": "skills/seo-schema/references/deprecated-types-2024-2026.md",
+      "sha256": "a8e0deb70032e8807182d64d407822acbc24946154d29b3551312340f7e1a6f9",
+      "bytes": 5109
+    },
+    {
+      "path": "skills/seo-sitemap/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-sitemap/SKILL.md",
+      "sha256": "9b56ca83f957a8f573b52794aa35a883040f4cb87e16ad3f04b30b0b22657066",
+      "bytes": 6106
+    },
+    {
+      "path": "skills/seo-sxo/SKILL.md",
+      "sha256": "130ffff4628ceafdb70e7be789d791d7ceaeb5af27868f9ee31fa97e6bacdb2a",
+      "bytes": 10177
+    },
+    {
+      "path": "skills/seo-sxo/references/page-type-taxonomy.md",
+      "sha256": "489c6bdf108e519b482b1ea7ee295f438c0d31d292d7bf904a7371ca48643dae",
+      "bytes": 7382
+    },
+    {
+      "path": "skills/seo-sxo/references/persona-scoring.md",
+      "sha256": "487955f23af4a089b65b3f89a2df68782e7b8af0c8f14a6b21a6cc3360ee8b34",
+      "bytes": 6353
+    },
+    {
+      "path": "skills/seo-sxo/references/user-story-framework.md",
+      "sha256": "329ecef0cf1194c3f012f314419bef784c8ef2d08a9f0d2fe0616b5f46c68ae8",
+      "bytes": 5694
+    },
+    {
+      "path": "skills/seo-sxo/references/wireframe-templates.md",
+      "sha256": "10d9cbe4b0d92346280f5d70dfbf21892a75fefb91ec48db205eb13143690d92",
+      "bytes": 6490
+    },
+    {
+      "path": "skills/seo-technical/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo-technical/SKILL.md",
+      "sha256": "37ccc4b03e5ad813f337150217fff7568cb3eab15b937ea1e37fa975f825b1cc",
+      "bytes": 17616
+    },
+    {
+      "path": "skills/seo/LICENSE.txt",
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "bytes": 143
+    },
+    {
+      "path": "skills/seo/SKILL.md",
+      "sha256": "8b0248e5cb76b0cfa7d2de7fc52ed41c6b565ebc62d3cc7262810dfa9692ca06",
+      "bytes": 19693
+    },
+    {
+      "path": "skills/seo/references/backlink-quality.md",
+      "sha256": "86a39d009b19f4f17a3dc4461afe209111dc2e8df56b6bd3eecedf5b4a03f742",
+      "bytes": 3491
+    },
+    {
+      "path": "skills/seo/references/cwv-thresholds.md",
+      "sha256": "bd1d28773d7ee94bbdd1c1230f0f6be3cf4d1689c22dd6dfd52cc0e043732d16",
+      "bytes": 7713
+    },
+    {
+      "path": "skills/seo/references/eeat-framework.md",
+      "sha256": "7d1f45cc9f42e9208c936af9e0d57dbdf29e52e733b5a8bed6eb65fa19475972",
+      "bytes": 7400
+    },
+    {
+      "path": "skills/seo/references/eeat-scoring-guide.md",
+      "sha256": "da90342f0c97af529345d7824147c0a19c1a20de57d1470150c8838f5c445228",
+      "bytes": 1519
+    },
+    {
+      "path": "skills/seo/references/free-backlink-sources.md",
+      "sha256": "eaa18f4608c3bd889267c9723d632340ca72d3856f972651364dcbce42f3ed8e",
+      "bytes": 6640
+    },
+    {
+      "path": "skills/seo/references/local-schema-multilocation.md",
+      "sha256": "15fcdea286dde09d6e2633973d67f5040b6dadabf92b8e2f3855f2e301da5524",
+      "bytes": 1466
+    },
+    {
+      "path": "skills/seo/references/local-schema-types.md",
+      "sha256": "65f4e35e065afb7af24ac130f39f23e536e9ca3268ab81447f34fde143407d4e",
+      "bytes": 8214
+    },
+    {
+      "path": "skills/seo/references/local-search-behavior.md",
+      "sha256": "f7870f17345a7d57e9d42b77ec85834f9aedc5ac5b54da57409e3f77f7fd47ba",
+      "bytes": 2874
+    },
+    {
+      "path": "skills/seo/references/local-seo-signals.md",
+      "sha256": "6f8e4d1e8a71a7af3051ee7cf54bb43d77b1040aaa3ebff2e5df1aea42de050f",
+      "bytes": 7953
+    },
+    {
+      "path": "skills/seo/references/maps-api-endpoints.md",
+      "sha256": "7b5b15d2e50feb15d6d4c523a89e9a6f5291b82a0cd8c384053243119e35d9ab",
+      "bytes": 6241
+    },
+    {
+      "path": "skills/seo/references/maps-free-apis.md",
+      "sha256": "18323486ddd52eaa8e86f7f22930fc065f7c9b529352eadda8c27dca44299b91",
+      "bytes": 6191
+    },
+    {
+      "path": "skills/seo/references/maps-gbp-checklist.md",
+      "sha256": "779c3e5de1c8c5182db4791be859f6f0b7001d25daa7a742b8cdf9d80738dcdc",
+      "bytes": 6107
+    },
+    {
+      "path": "skills/seo/references/maps-geo-grid.md",
+      "sha256": "76e08cd3fefb4d0367e0647895c482e1914a932dc86de4a82dc2d03b987855e4",
+      "bytes": 4375
+    },
+    {
+      "path": "skills/seo/references/quality-gates.md",
+      "sha256": "5652ec5f0328f3f2129d0873d69091e66ea69d99cf6f566d1391e3a3d0db6ef1",
+      "bytes": 6057
+    },
+    {
+      "path": "skills/seo/references/schema-types.md",
+      "sha256": "0646a5dfaef8c68fa6edcb3887efc2081004f8f7eeb15969a932c24835e83e4f",
+      "bytes": 9274
+    },
+    {
+      "path": "skills/seo/references/thinking-framework-validate-act.md",
+      "sha256": "8109404dfee9e732a10a8be10e48a311b3b6c000a1a542972bbd11c7b57f0c75",
+      "bytes": 3084
+    },
+    {
+      "path": "skills/seo/references/thinking-framework.md",
+      "sha256": "e15560608df0b8216b06967f72658f35b320ebe314cd8e15a1b99d66ec2aa96f",
+      "bytes": 6778
+    }
+  ]
+}

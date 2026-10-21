@@ -2,7 +2,7 @@
 
 供 Codex 使用的个人开发方法 Skill：复用目标 Shopify 主题的架构、公共组件和视觉语言，开发后台可配置的独立模块。
 
-当前版本：**v1.4.0**。内置 Humanizer 3.1.0 完整规则与许可，网站文案默认自然化；保留主题原生架构与公共组件约定。
+当前版本：**v1.5.0**。内置 Humanizer 3.1.0 完整规则与许可，网站文案默认自然化；保留主题原生架构与公共组件约定。
 
 ## 安装
 
@@ -42,3 +42,11 @@ Shopify Skill 1.4.0 已完整融合 Humanizer 3.1.0。创建或修改页面文�
 > 使用 $shopify-theme-native，优化这个商品页的文案，让语言自然、偏口语且保留专业感，保留规格、关键词和购买入口。
 
 Humanizer 完整原文与 MIT 许可随 Skill 一起分发，位于 `references/humanizer.md` 和 `references/humanizer-LICENSE.txt`。Copyright (c) 2025 Siqi Chen。主题继承规则、交易事实、占位符及用户明确要求保留的文字优先。
+
+## 已选扩展（1.5.0）
+
+2026-10-21 已融合编号 1、2、3、4、6、9、10：Claude SEO、GEO SEO Claude、Marketing Skills、Lighthouse、Shopify CLI、Gemini Watermark Remover、ExifTool。SEO/GEO/营销知识按任务自动读取；媒体处理只针对用户指定素材。
+
+来源与许可保存在 `skills/shopify-theme-native/vendor/` 和 `sources/extensions.json`。工具运行依赖不打包进仓库；新电脑复制 Skill 的 `assets/runtime/package.json` 和 `package-lock.json` 到 `~/.codex/tools/shopify-theme-native/` 后执行 `npm ci`。已有 Shopify CLI 优先复用，缺少时安装 `@shopify/cli`。Python 核心工具用 `python <skill>/scripts/audit-runner.py --setup` 安装独立环境。
+
+运行方法、职责划分与 Shopify 适配见 [扩展指南](skills/shopify-theme-native/references/extensions.md)。不需要同事安装 WordPress 知识库。尚未配置的 GSC/GA4、付费数据、可选报告依赖和实际站点验收不视为已经完成。未选择 Playwright、Theme Tools 独立集成或 Watermarks Remover 服务。
