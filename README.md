@@ -2,7 +2,7 @@
 
 供 Codex 使用的个人开发方法 Skill：复用目标 Shopify 主题的架构、公共组件和视觉语言，开发后台可配置的独立模块。
 
-当前版本：**v1.6.0**。内置 Humanizer 3.1.0 完整规则与许可，网站文案默认自然化；保留主题原生架构与公共组件约定。
+当前版本：**v1.7.0**。内置 Humanizer 3.1.0 完整规则与许可，网站文案默认自然化；保留主题原生架构与公共组件约定。
 
 ## 安装
 
@@ -59,3 +59,8 @@ Humanizer 完整原文与 MIT 许可随 Skill 一起分发，位于 `references/
 - [逐页验收表](skills/shopify-theme-native/assets/accessibility-review-template.csv)
 
 新站默认提供可编辑的无障碍声明与公共页脚入口，使用自然、尊重的文案说明实际措施、已知限制和真实联系渠道。模板需按站点事实填写后发布；自动评分、Skill 安装或政策页创建均不等于站点已经通过无障碍合规评估。
+## 精简开发与工具选择（1.7.0）
+
+参考 Ponytail 加入主题复用、最小必要实现及保留正确性的审查规则；Windows-MCP列为桌面任务可选方案，不默认安装或开启服务。保留原有全部无障碍与配置要求。
+
+[实施规则与来源](skills/shopify-theme-native/references/lean-development.md)

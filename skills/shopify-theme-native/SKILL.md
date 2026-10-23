@@ -2,7 +2,7 @@
 name: shopify-theme-native
 description: 按用户的主题原生融合与复用方法开发 Shopify Liquid 主题、独立 section 和共享组件，并用内置 Humanizer 编写或优化自然的网站文案；复杂定制产品按需采用公式计价与 YMQ 适配方法。适用于新站开发、主题修改和相关文案工作，不用于一般店铺运营或无关应用开发。
 metadata:
-  version: "1.6.0"
+  version: "1.7.0"
 ---
 
 # Shopify 主题原生融合开发
@@ -43,6 +43,10 @@ metadata:
 - 交付逐个核对本次所有 section：设置字段、style 输出、实际 wrapper、page-width、标题与动画接线、旧 CSS 冲突均检查。至少验证手机与桌面断点，并改变上下间距验证独立生效及移动端 0.75 比例；有标题的模块验证 heading_size 不被覆盖。公共 header/footer 不属于本次批量补齐范围。
 
 实现结构和 schema 示例见 [Dawn section 模板](references/dawn-section.md)，处理 Dawn section 时必须读取。
+
+## 最小必要实现与复用审查
+
+新增模块、重构或交付代码时读取 [精简实现与桌面备用方案](references/lean-development.md)。先追踪原生实现和调用流程，优先配置与共享组件，避免重复代码、过早抽象和不必要依赖。精简不削减后台可编辑能力、定价正确性、无障碍和错误处理。Windows-MCP 仅作为必要桌面任务的可选方案，不默认安装，不能替代 API/CLI 或绕过环境限制。
 
 ## 所有操作的工具选择原则
 
